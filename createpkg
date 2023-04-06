@@ -2,7 +2,6 @@
 
 #==============================|Global variables
 export pkgext='tpkg' #Package Extension
-
 #==============================|Functions
 CHECK_PKG(){
 	#Receiving the package name.
