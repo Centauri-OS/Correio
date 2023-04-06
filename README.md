@@ -9,7 +9,7 @@
 - pkginstall - .tpkg package installer
 - pkgremove - Package Remover (safely).
 ```
-#How to install?
+# How to install?
 Locate where Sirius was downloaded, usually you can install it with:
 ```
 git clone https://github.com/Centauri-OS/Sirius
