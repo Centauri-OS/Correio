@@ -9,3 +9,13 @@
 - pkginstall - .tpkg package installer
 - pkgremove - Package Remover (safely).
 ```
+#How to install?
+Locate where Sirius was downloaded, usually you can install it with:
+```
+git clone https://github.com/Centauri-OS/Sirius
+```
+Depois de ter encontrado o Sirius foi baixado, mova os arquivos responsaveis pelos pacotes para a pasta /usr/sbin com:
+```
+cp -v createpkg pkginstall pkgremove /usr/sbin
+```
+**After that, you are already able to install packages in your linux distribution, in centauri-os, you don't need to do this tutorial**
