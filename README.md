@@ -1,5 +1,5 @@
 # **Introducing**
-## "Hermes" is a package manager used in the Centauri-OS distribution. It is made in POSIX shell, open-source, and completely free.
+## "Hermes" is a package manager used in the Centauri-OS distribution. It is made in POSIX Shell, open-source, and completely free.
 # **Why Hermes?**
 ## Hermes was the messenger of the gods in Greek mythology, known for his speed and ability to transport messages and objects from one place to another. Likewise, a package manager is responsible for transporting and managing software packages from one place to another. In addition, the name "Hermes" has a pleasant sound and is easy to remember, which is important for a software name.
 # **How does Hermes work?**
