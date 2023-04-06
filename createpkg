@@ -29,7 +29,7 @@ CHECK_PKG(){
 	fi
 } 
 
-#Package creation
+#==============================|Package Creation
 CREATE_PKG(){
 	#Receiving the package name.
 	pkg_name="$1"
