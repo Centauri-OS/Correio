@@ -22,5 +22,5 @@ After that, you are already able to install packages in your linux distribution,
 To create packages, install and remove packages you will normally be asked for root access.
 <details>
 <summary>Tips</summary>
-### **To create packages, install and remove packages you will normally be asked for root access.**
+**To create packages, install and remove packages you will normally be asked for root access.
 </details>
