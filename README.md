@@ -5,8 +5,8 @@
 # **How does Sirius work?**
 **Some basic Sirius commands are:**
 ```
-- createpkg - .tpkg package builder
-- pkginstall - .tpkg package installer
+- createpkg - .tpkg package builder.
+- pkginstall - .tpkg package installer.
 - pkgremove - Package Remover (safely).
 ```
 # How to install?
@@ -18,4 +18,4 @@ Depois de ter encontrado o Sirius foi baixado, mova os arquivos responsaveis pel
 ```
 cp -v createpkg pkginstall pkgremove /usr/sbin
 ```
-After that, you are already able to install packages in your linux distribution, **in Centauri-os, you don't need to do this tutorial**
+After that, you are already able to install packages in your linux distribution, **in Centauri-os, you don't need to do this tutorial.**
