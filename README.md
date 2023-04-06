@@ -5,7 +5,7 @@
 # **How does Sirius work?**
 ## Some basic Sirius commands are:
 ```
-createpkg - .tpkg package builder
-pkginstall - .tpkg package installer
-pkgremove - Package Remover (safely).
+- createpkg - .tpkg package builder
+* pkginstall - .tpkg package installer
++ pkgremove - Package Remover (safely).
 ```
