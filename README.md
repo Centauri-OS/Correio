@@ -12,7 +12,6 @@
 **createpkg commands:**
 ```
 -c package_name creates the package
-
 ```
 # How to install?
 **Locate where Hermes was downloaded, usually you can install it with:**
