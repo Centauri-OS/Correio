@@ -10,11 +10,11 @@
 - pkgremove - Package Remover (safely).
 ```
 # How to install?
-Locate where Hermes was downloaded, usually you can install it with:
+**Locate where Hermes was downloaded, usually you can install it with:**
 ```
 git clone https://github.com/Centauri-OS/Hermes
 ```
-After you have found Hermes has been downloaded, move the files responsible for the packages to the /usr/sbin folder with:
+**After you have found Hermes has been downloaded, move the files responsible for the packages to the /usr/sbin folder with:**
 ```
 cp -v createpkg pkginstall pkgremove /usr/sbin
 ```
