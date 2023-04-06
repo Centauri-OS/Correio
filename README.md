@@ -21,5 +21,5 @@ cp -v createpkg pkginstall pkgremove /usr/sbin
 After that, you are already able to install packages in your linux distribution, **in Centauri-os, you don't need to do this tutorial.**
 <details>
 <summary>Tips</summary>
-To create packages, install and remove packages you will normally be asked for root access.
+To create, install and remove packages you will normally be asked for root access.
 </details>
