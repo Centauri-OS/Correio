@@ -14,7 +14,7 @@ Locate where Hermes was downloaded, usually you can install it with:
 ```
 git clone https://github.com/Centauri-OS/Hermes
 ```
-Depois de ter encontrado o Sirius foi baixado, mova os arquivos responsaveis pelos pacotes para a pasta /usr/sbin com:
+After you have found Hermes has been downloaded, move the files responsible for the packages to the /usr/sbin folder with:
 ```
 cp -v createpkg pkginstall pkgremove /usr/sbin
 ```
