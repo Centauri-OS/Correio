@@ -3,7 +3,7 @@
 # **Why Sirius?**
 ## Sirius is one of the brightest stars in the night sky and is a binary star composed of a class A main sequence star and a white dwarf. As a package manager, the name Sirius can evoke ideas of brightness, reliability, and precision, which are important characteristics for an effective package manager. Additionally, Sirius is an easy-to-remember and pronounce name.
 # **How does Sirius work?**
-## Some basic Sirius commands are:
+Some basic Sirius commands are:
 ```
 - createpkg - .tpkg package builder
 - pkginstall - .tpkg package installer
