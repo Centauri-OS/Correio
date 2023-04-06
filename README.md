@@ -9,6 +9,11 @@
 - pkginstall - .tpkg package installer.
 - pkgremove - Package Remover (safely).
 ```
+**createpkg commands:**
+```
+-c package_name creates the package
+
+```
 # How to install?
 **Locate where Hermes was downloaded, usually you can install it with:**
 ```
@@ -16,6 +21,7 @@ git clone https://github.com/Centauri-OS/Hermes
 ```
 **After you have found Hermes has been downloaded, login as root and move the files responsible for the packages to the /usr/sbin folder with:**
 ```
+chmod +x createpkg pkginstall pkgremove
 cp -v createpkg pkginstall pkgremove /usr/sbin
 ```
 After that, you are already able to install packages in your linux distribution, **in Centauri-os, you don't need to do this tutorial.**
