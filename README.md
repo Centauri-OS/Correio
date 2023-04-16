@@ -23,7 +23,7 @@ git clone https://github.com/Centauri-OS/Hermes
 chmod +x createpkg pkginstall pkgremove
 cp -v createpkg pkginstall pkgremove /usr/sbin
 ```
-After that, you are already able to install packages in your linux distribution, **in Centauri-os, you don't need to do this tutorial.**
+After that, you are already able to install packages in your linux distribution, **in Centauri-OS, you don't need to do this tutorial.**
 <details>
 <summary>Tips</summary>
 To create, install and remove packages you will normally be asked for root access.
