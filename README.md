@@ -13,7 +13,7 @@
 ```
 -c package_name creates the package
 -v see the verbosity of the package builder
-create extended version of -c
+create (extended version of -c)
 ```
 # How to install?
 **Locate where Hermes was downloaded, usually you can install it with:**
