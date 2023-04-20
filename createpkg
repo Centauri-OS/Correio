@@ -100,4 +100,3 @@ case "$CMD" in
 		#Calling the function to create the package.
 	;;
 esac
-
