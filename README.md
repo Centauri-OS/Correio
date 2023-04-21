@@ -15,6 +15,10 @@
 -v see the verbosity of the package builder
 create (extended version of -c)
 ```
+**pkginstall commands:**
+```
+install (install the package)
+```
 # How to install?
 **Locate where Hermes was downloaded, usually you can install it with:**
 ```
