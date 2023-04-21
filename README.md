@@ -19,6 +19,7 @@ create (extended version of -c)
 ```
 install (install the package)
 ```
+#
 # How to install?
 **Locate where Hermes was downloaded, usually you can install it with:**
 ```
