@@ -150,4 +150,3 @@ case "$CMD" in
 		GENERATE_PKGDESC
 	;;
 esac
-
