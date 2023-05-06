@@ -21,6 +21,7 @@ TRACK='/var/log/installed'
 #==============================|Functions  
 #Install Package
 INSTALL()
+{
 	local package ="$1"
 	name_package=$(basename $package)
 	name_package="$(name_package//.tpkg/)"
@@ -34,23 +35,40 @@ INSTALL()
 		exit 1
 	fi
 	
-	if sed -i 's,\.\/,,g; /^$/d' "${TRACK}/${}"; then
+	if sed -i 's,\.\/,,g; /^$/d; /^desc\/$/d; /^desc\/pkgdesc$/d' "${TRACK}/${}"; then
 		echo "Cleaning carried out..."
 	else
 		echo "Cleaning error!"
 		exit 1
 	fi
 }
+DESC()
+{
+	local pkg="$@"
+	if  tar -tf "$pkg" "./desc/pkgdesc" 1> /dev/null 2> /dev/null; then
+		if tar -xf "$pkg" -C "${dirtemp}" "./desc/pkgdesc" 2> /dev/null; then
+			. "${dirtemp}/desc/pkgdesc"
+			echo "Maintainer : $mantainer"
+			echo "Package : $package"    
+	                echo "Description : $desc"
+	fi
+	else
+		echo "Description file does not exist"
+	fi
+	[ -e "$dirtemp" ] && { rm -r "${dirtemp}" ;}
+}
 #==============================|Start  
 case $1 in
 	install)
 		shift 
 		# Parameter undercutting.
-		if [ -e "$1" ]; then
-			INSTALL $1
-		else
-			echo "Package "$1" does not exist."
-			exit 1
-		fi
+		while [ -n "$1" ]; do
+			if [ -e "$1" ]; then
+				INSTALL $1
+			else
+				echo "Package "$1" does not exist."
+				exit 1
+			fi
+		done
 	;;
 esac

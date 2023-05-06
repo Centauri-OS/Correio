@@ -75,6 +75,32 @@ AUTHOR: Emerson da Silva Vianna
 CONTACT: centaurios@tutanota.com
 EOF
 }
+#==============================|PKGDESC
+GENERATE_PKGDESC()
+{
+	if [ ! -d "desc" ]; then
+		mkdir -v desc
+	fi
+	cat <<EOF>desc/pkgdesc
+	# Maintainer's name
+	maintainer=''
+
+	# Package name
+	packagename=''
+
+	# Package Version
+	version=''
+
+	# Package license
+	license=''
+
+	# Package Description
+	description=''
+
+	# Project Homepage
+	www=''
+EOF
+}
 
 #==============================|Parser
 if [ -z "$1" ]; then
@@ -86,6 +112,10 @@ while [ -n "$1" ]; do
 		create|-c)
 			CMD=$1
 			shift
+		;;
+		
+		pkgdesc)
+			CMD="pkgdesc"
 		;;
 	
 		verbose|-v)
@@ -116,4 +146,8 @@ case "$CMD" in
 		CREATE_PKG "$PKG" 
 		#Calling the function to create the package.
 	;;
+	pkgdesc)
+		GENERATE_PKGDESC
+	;;
 esac
+
